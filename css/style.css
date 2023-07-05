@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    width: 1800px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    display: block;
+}
+.left_text {
+    float: left;
+    width: 350px;
+    font-weight: bold;
+}
+.name {
+    float: left;
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: left;
+}
+.name > p {
+    padding-left: 50px;
+}
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    width: 350px;
+    height: 150px;
+    background-color: azure;
+}
+.logotext {
+    float: left;
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+.contents {
+    float: left;
+    margin-top: 20px;
+    width: 350px;
+    height: 400px;
+}
+.content {
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.who {
+    float: left;
+    width: 1100px;
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+}
+.introduce {
+    float: left;
+    width: 1100px;
+    height: 800px;
+}
+.me1 {
+    float: right;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 100px;
+    width: 25%;
+}
+.introduce > h4 {
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: 400px;
+    margin-bottom: 25px;
+}
+.text2 {
+    margin-left: 100px;
+    font-size: 22px;
+}
+p {
+    margin-bottom: 10px;
+}
+.curry {
+    float: right;
+    width: 350px;
+    height: 600px;
+    background-color: rgb(198, 198, 191);
+}
